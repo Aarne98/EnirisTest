@@ -1,6 +1,6 @@
-import React from 'react';
-import { useLoaderData } from "react-router-dom";
-import { getDevices } from "../services/devicesService";
+import React from 'react'
+import { useLoaderData } from "react-router-dom"
+import { getDevices } from "../services/devicesService"
 
 export async function loader() {
     const devices = await getDevices();
@@ -32,5 +32,5 @@ export default function Devices() {
                 </tbody>
             </table>
         </div>
-    );
+    )
 }
