@@ -1,5 +1,8 @@
 # Run project:
 ## 1 Express:
+
+add the .env file in /Express
+
 cd /Express
 
 npm i
