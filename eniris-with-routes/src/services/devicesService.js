@@ -64,7 +64,6 @@ const fetchData = async () => {
     if (response3.status !== 200) {
       throw new Error()
     }
-    console.log(response3)
     return { success: true, data: response3.data.device }
   } catch (error) {
     return { success: false, data: [], message: error.message }

@@ -8,7 +8,6 @@ export async function loader() {
 export async function action({ request }) {
   const formData = await request.formData()
   const deviceId = Object.fromEntries(formData).id
-  console.log(deviceId)
   await updateDevices(deviceId)
   return redirect("/edit-devices")
 }
