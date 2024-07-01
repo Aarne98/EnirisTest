@@ -10,7 +10,7 @@ npm i
 node index.js
 
 ## 2 React:
-cd/React
+cd/eniris-with-routes
 
 npm i
 
